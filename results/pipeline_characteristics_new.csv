@@ -1,0 +1,11 @@
+pipeline_name,domain,n_ops,pipeline_depth,operator_types,has_join,has_impute,input_sizes,output_rows,output_cols,build_time_ms,pipeline_exec_time_ms,provenance_overhead_ratio
+census,demographics,4,4,filter|join|select/drop_columns,True,False,"[10000, 5]",3500,5,58.258,12.619,4.617
+retail,retail,7,7,assign|filter|join|map|select/drop_columns,True,False,"[5000, 20000, 1000]",10000,3,143.529,24.680,5.816
+healthcare,healthcare,8,8,assign|filter|impute|join|map|select/drop_columns,True,True,"[5000, 15000, 3000]",6750,3,101.296,18.339,5.524
+fraud,finance,8,8,assign|filter|join|map|select/drop_columns,True,False,"[20000, 5000, 2000]",2480,2,141.103,25.133,5.614
+education,education,9,9,assign|filter|impute|join|map|select/drop_columns,True,True,"[4000, 12000, 1000]",5136,2,73.203,16.529,4.429
+insurance,insurance,10,10,assign|filter|impute|join|map|select/drop_columns,True,True,"[5000, 15000, 5000]",3870,2,105.888,19.642,5.391
+iot,iot,12,12,assign|filter|impute|join|map|select/drop_columns,True,True,"[5000, 30000, 5000]",3822,4,200.310,33.449,5.988
+deep_hr,hr,14,14,assign|filter|impute|join|map|select/drop_columns,True,True,"[8000, 50, 8000]",1485,5,66.473,14.827,4.483
+deep_logistics,logistics,18,18,assign|filter|impute|join|map|select/drop_columns,True,True,"[30000, 5000, 5000]",2682,5,200.754,36.027,5.572
+social,social,9,9,assign|filter|join|map|select/drop_columns,True,False,"[5000, 15000, 15000]",7725,3,136.787,25.977,5.266

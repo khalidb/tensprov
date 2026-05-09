@@ -1,0 +1,4 @@
+pipeline_name,n_input_records,n_input_attributes,n_output_records,n_output_attributes,n_ops,operator_types,tensprov_memory_mb,tensprov_build_time_ms,tensprov_query_forward_ms,tensprov_query_backward_ms,chapman_memory_mb,memory_reduction_factor
+German Credit,1000,21,1000,67,77,assign_column|drop/select_columns|filter,0.023485,30.287508,0.116583,0.111796,187.38,7978.65
+COMPAS,7214,53,6907,8,5,drop/select_columns|filter|map_column,0.001410,21.047229,0.184254,0.077267,218.98,155356.68
+Census,32561,15,32561,104,119,assign_column|drop/select_columns|filter,0.036397,1511.998396,0.127071,0.144946,4012.38,110239.37
