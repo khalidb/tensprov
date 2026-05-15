@@ -33,7 +33,7 @@ tensprov/
 Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/tensprov.git
+git clone https://github.com/khalidb/tensprov.git
 cd tensprov
 ```
 
