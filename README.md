@@ -16,7 +16,7 @@ The repository contains:
 # Repository Structure
 
 ```text
-tensprov_lean/
+tensprov/
 ├── benchmarks/     # Benchmark and evaluation scripts
 ├── results/        # Final experimental results
 ├── tensprov/       # Core TensProv implementation
